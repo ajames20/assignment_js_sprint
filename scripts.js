@@ -42,7 +42,7 @@ var sprintFunctions = {
         var myArray = [];
 
         for (var i = 1; i <= input; i++) {
-            let answer = "";
+            var answer = "";
             if (i % 3 === 0) answer = "FIZZ";
             if (i % 5 === 0) answer += "BUZZ";
 
